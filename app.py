@@ -13,7 +13,6 @@ LANGUAGES = {
     "English": "en",
     "हिन्दी (Hindi)": "hi",
     "తెలుగు (Telugu)": "te",
-    "Français (French)": "fr",
 }
 
 UI_TEXT = {
@@ -116,58 +115,25 @@ UI_TEXT = {
         "action_header": "తీసుకోవాల్సిన చర్యలు",
         "crops": {"Tomato": "టమోటా (Tomato)", "Potato": "బంగాళాదుంప (Potato)"},
     },
-    "fr": {
-        "subtitle": "Diagnostic des maladies foliaires associé aux conditions météo, de température et d'humidité en direct.",
-        "sidebar_header": "Paramètres du champ",
-        "language_label": "Langue",
-        "location_label": "Ville / Exploitation",
-        "crop_label": "Culture",
-        "note_label": "Note de parcelle (optionnel)",
-        "note_placeholder": "ex. Parcelle Nord, Rang 4",
-        "weather_header": "Conditions météo en direct",
-        "location_caption": "Lieu",
-        "updated_caption": "Mis à jour",
-        "weather_metric": "Météo",
-        "temp_metric": "Température",
-        "humidity_metric": "Humidité",
-        "weather_error": "Impossible de charger la météo pour ce lieu. Vérifiez le nom de la ville.",
-        "risk_unavailable": "Données météo indisponibles pour estimer le risque.",
-        "risk_high": "Pression fongique élevée : chaleur et humidité >=80 % favorisent le mildiou.",
-        "risk_mod": "Humidité modérée : surveillez les feuilles basses et évitez l'arrosage par aspersion le soir.",
-        "risk_low": "Faible pression fongique foliaire selon la température et l'humidité actuelles.",
-        "upload_header": "1. Importer une photo de feuille",
-        "uploader_label": "Choisir une image JPG, JPEG ou PNG",
-        "no_image": "Aucune image importée pour le moment.",
-        "result_header": "2. Diagnostic et conseils",
-        "analyze_btn": "Lancer le diagnostic",
-        "spinner": "Analyse de l'image en cours...",
-        "detected": "État détecté",
-        "confidence": "Confiance (Démo)",
-        "severity": "Gravité",
-        "field_note_prefix": "Note de parcelle",
-        "symptoms_header": "Symptômes observés",
-        "action_header": "Actions recommandées",
-        "crops": {"Tomato": "Tomate", "Potato": "Pomme de terre"},
-    },
 }
 
 WMO_WEATHER_CODES = {
-    0: {"en": "Clear sky", "hi": "साफ़ आसमान", "te": "నిర్మలమైన ఆకాశం", "fr": "Ciel dégagé"},
-    1: {"en": "Mainly clear", "hi": "मुख्यतः साफ़", "te": "ప్రధానంగా నిర్మలం", "fr": "Généralement dégagé"},
-    2: {"en": "Partly cloudy", "hi": "आंशिक रूप से बादल", "te": "పాక్షికంగా మేఘావృతం", "fr": "Partiellement nuageux"},
-    3: {"en": "Overcast", "hi": "घने बादल", "te": "మేఘావృతం", "fr": "Couvert"},
-    45: {"en": "Fog", "hi": "कोहरा", "te": "పొగమంచు", "fr": "Brouillard"},
-    48: {"en": "Depositing rime fog", "hi": "घना कोहरा", "te": "దట్టమైన పొగమంచు", "fr": "Brouillard givrant"},
-    51: {"en": "Light drizzle", "hi": "हल्की बूंदाबांदी", "te": "తేలికపాటి చినుకులు", "fr": "Bruine légère"},
-    53: {"en": "Moderate drizzle", "hi": "मध्यम बूंदाबांदी", "te": "మోస్తరు చినుకులు", "fr": "Bruine modérée"},
-    55: {"en": "Dense drizzle", "hi": "तेज़ बूंदाबांदी", "te": "దట్టమైన చినుకులు", "fr": "Bruine dense"},
-    61: {"en": "Slight rain", "hi": "हल्की बारिश", "te": "తేలికపాటి వర్షం", "fr": "Pluie faible"},
-    63: {"en": "Moderate rain", "hi": "मध्यम बारिश", "te": "మోస్తరు వర్షం", "fr": "Pluie modérée"},
-    65: {"en": "Heavy rain", "hi": "भारी बारिश", "te": "భారీ వర్షం", "fr": "Forte pluie"},
-    80: {"en": "Slight rain showers", "hi": "हल्की बौछारें", "te": "తేలికపాటి జల్లులు", "fr": "Averses faibles"},
-    81: {"en": "Moderate rain showers", "hi": "मध्यम बौछारें", "te": "మోస్తరు జల్లులు", "fr": "Averses modérées"},
-    82: {"en": "Violent rain showers", "hi": "तेज़ बौछारें", "te": "భారీ జల్లులు", "fr": "Fortes averses"},
-    95: {"en": "Thunderstorm", "hi": "आंधी-तूफ़ान", "te": "ఉరుములతో కూడిన వర్షం", "fr": "Orage"},
+    0: {"en": "Clear sky", "hi": "साफ़ आसमान", "te": "నిర్మలమైన ఆకాశం"},
+    1: {"en": "Mainly clear", "hi": "मुख्यतः साफ़", "te": "ప్రధానంగా నిర్మలం"},
+    2: {"en": "Partly cloudy", "hi": "आंशिक रूप से बादल", "te": "పాక్షికంగా మేఘావృతం"},
+    3: {"en": "Overcast", "hi": "घने बादल", "te": "మేఘావృతం"},
+    45: {"en": "Fog", "hi": "कोहरा", "te": "పొగమంచు"},
+    48: {"en": "Depositing rime fog", "hi": "घना कोहरा", "te": "దట్టమైన పొగమంచు"},
+    51: {"en": "Light drizzle", "hi": "हल्की बूंदाबांदी", "te": "తేలికపాటి చినుకులు"},
+    53: {"en": "Moderate drizzle", "hi": "मध्यम बूंदाबांदी", "te": "మోస్తరు చినుకులు"},
+    55: {"en": "Dense drizzle", "hi": "तेज़ बूंदाबांदी", "te": "దట్టమైన చినుకులు"},
+    61: {"en": "Slight rain", "hi": "हल्की बारिश", "te": "తేలికపాటి వర్షం"},
+    63: {"en": "Moderate rain", "hi": "मध्यम बारिश", "te": "మోస్తరు వర్షం"},
+    65: {"en": "Heavy rain", "hi": "भारी बारिश", "te": "భారీ వర్షం"},
+    80: {"en": "Slight rain showers", "hi": "हल्की बौछारें", "te": "తేలికపాటి జల్లులు"},
+    81: {"en": "Moderate rain showers", "hi": "मध्यम बौछारें", "te": "మోస్తరు జల్లులు"},
+    82: {"en": "Violent rain showers", "hi": "तेज़ बौछारें", "te": "భారీ జల్లులు"},
+    95: {"en": "Thunderstorm", "hi": "आंधी-तूफ़ान", "te": "ఉరుములతో కూడిన వర్షం"},
 }
 
 DISEASE_GUIDES = {
@@ -177,20 +143,17 @@ DISEASE_GUIDES = {
                 "en": "Early Blight",
                 "hi": "अगेती झुलसा (Early Blight)",
                 "te": "ముందస్తు ఆకుమాడు తెగులు (Early Blight)",
-                "fr": "Alternariose (Early Blight)",
             },
-            "severity": {"en": "Moderate", "hi": "मध्यम", "te": "మధ్యస్థం", "fr": "Modérée"},
+            "severity": {"en": "Moderate", "hi": "मध्यम", "te": "మధ్యస్థం"},
             "symptoms": {
                 "en": "Concentric dark rings ('target spots') on older lower leaves, yellowing around spots.",
                 "hi": "पुरानी निचली पत्तियों पर गहरे संकेंद्रित छल्ले और धब्बों के चारों ओर पीलापन।",
                 "te": "కింది పాత ఆకులపై వలయాకారపు ముదురు మచ్చలు మరియు చుట్టూ పసుపు రంగు.",
-                "fr": "Anneaux concentriques sombres sur les feuilles basses âgées avec jaunissement périphérique.",
             },
             "action": {
                 "en": "Prune affected lower leaves, avoid overhead watering, and apply an approved copper or mancozeb fungicide.",
                 "hi": "प्रभावित निचली पत्तियों को हटाएं, ऊपर से पानी न दें और अनुशंसित कॉपर या मैंकोज़ेब फफूंदनाशी का छिड़काव करें।",
                 "te": "తెగులు సోకిన కింది ఆకులను తొలగించి, పైనుండి నీరు పోయకుండా సిఫార్సు చేసిన శిలీంధ్రనాశిని పిచికారీ చేయండి.",
-                "fr": "Taillez les feuilles basses atteintes, évitez l'arrosage par aspersion et appliquez un fongicide homologué.",
             },
         },
         {
@@ -198,20 +161,17 @@ DISEASE_GUIDES = {
                 "en": "Late Blight",
                 "hi": "पछेती झुलसा (Late Blight)",
                 "te": "ఆలస్య ఆకుమాడు తెగులు (Late Blight)",
-                "fr": "Mildiou (Late Blight)",
             },
-            "severity": {"en": "High", "hi": "उच्च", "te": "అధికం", "fr": "Élevée"},
+            "severity": {"en": "High", "hi": "उच्च", "te": "అధికం"},
             "symptoms": {
                 "en": "Water-soaked dark lesions on leaves/stems with white mold growth in humid weather.",
                 "hi": "पत्तियों और तनों पर पानी से भीगे गहरे धब्बे और नमी में सफेद फफूंद की परत।",
                 "te": "ఆకులు, కాండాలపై నీటితో తడిసినట్లుండే ముదురు మచ్చలు మరియు తేమలో తెల్లటి బూజు.",
-                "fr": "Lésions sombres d'aspect gorgé d'eau sur feuilles et tiges avec duvet blanc par temps humide.",
             },
             "action": {
                 "en": "Isolate and remove infected plants immediately to limit spore spread; consult local extension guidance.",
                 "hi": "संक्रमित पौधों को तुरंत अलग कर नष्ट करें ताकि बीजाणु न फैलें; कृषि विशेषज्ञ से सलाह लें।",
                 "te": "వ్యాధి సోకిన మొక్కలను వెంటనే వేరు చేసి తొలగించండి; స్థానిక వ్యవసాయ నిపుణులను సంప్రదించండి.",
-                "fr": "Isolez et retirez immédiatement les plants infectés pour limiter la propagation des spores.",
             },
         },
         {
@@ -219,20 +179,17 @@ DISEASE_GUIDES = {
                 "en": "Healthy Leaf",
                 "hi": "स्वस्थ पत्ती (Healthy Leaf)",
                 "te": "ఆరోగ్యకరమైన ఆకు (Healthy Leaf)",
-                "fr": "Feuille saine",
             },
-            "severity": {"en": "None", "hi": "कोई नहीं", "te": "లేదు", "fr": "Aucune"},
+            "severity": {"en": "None", "hi": "कोई नहीं", "te": "లేదు"},
             "symptoms": {
                 "en": "Uniform green foliage without lesions, curling, or discoloration.",
                 "hi": "बिना किसी धब्बे, मुड़ाव या पीलेपन के एकसमान हरी पत्तियां।",
                 "te": "మచ్చలు, ముడతలు లేదా రంగు మార్పు లేకుండా సమానమైన ఆకుపచ్చ ఆకులు.",
-                "fr": "Feuillage vert uniforme sans lésions, enroulement ni décoloration.",
             },
             "action": {
                 "en": "Continue regular monitoring, drip/base irrigation, and field scouting.",
                 "hi": "नियमित निगरानी, जड़ों के पास सिंचाई और खेत का निरीक्षण जारी रखें।",
                 "te": "క్రమం తప్పకుండా పర్యవేక్షణ మరియు మొక్కల మొదళ్ల వద్ద నీటిపారుదల కొనసాగించండి.",
-                "fr": "Poursuivez la surveillance régulière et l'irrigation au pied des plants.",
             },
         },
     ],
@@ -242,20 +199,17 @@ DISEASE_GUIDES = {
                 "en": "Early Blight",
                 "hi": "अगेती झुलसा (Early Blight)",
                 "te": "ముందస్తు ఆకుమాడు తెగులు (Early Blight)",
-                "fr": "Alternariose (Early Blight)",
             },
-            "severity": {"en": "Moderate", "hi": "मध्यम", "te": "మధ్యస్థం", "fr": "Modérée"},
+            "severity": {"en": "Moderate", "hi": "मध्यम", "te": "మధ్యస్థం"},
             "symptoms": {
                 "en": "Dark brown angular/concentric spots on foliage, premature leaf drop.",
                 "hi": "पत्तियों पर गहरे भूरे कोणीय/गोल धब्बे और समय से पहले पत्तियों का गिरना।",
                 "te": "ఆకులపై ముదురు గోధుమ రంగు మచ్చలు మరియు ఆకులు ముందుగానే రాలిపోవడం.",
-                "fr": "Taches brun foncé anguleuses ou concentriques sur le feuillage, chute prématurée des feuilles.",
             },
             "action": {
                 "en": "Maintain balanced soil nutrition, rotate crops, and use labeled protectant fungicides if needed.",
                 "hi": "संतुलित पोषण बनाए रखें, फसल चक्र अपनाएं और आवश्यकतानुसार सुरक्षित फफूंदनाशी का उपयोग करें।",
                 "te": "సమతుల్య పోషకాలు అందిస్తూ పంట మార్పిడి పాటించండి మరియు అవసరమైతే శిలీంధ్రనాశిని వాడండి.",
-                "fr": "Maintenez une fertilisation équilibrée, pratiquez la rotation des cultures et traitez si nécessaire.",
             },
         },
         {
@@ -263,20 +217,17 @@ DISEASE_GUIDES = {
                 "en": "Late Blight",
                 "hi": "पछेती झुलसा (Late Blight)",
                 "te": "ఆలస్య ఆకుమాడు తెగులు (Late Blight)",
-                "fr": "Mildiou (Late Blight)",
             },
-            "severity": {"en": "High", "hi": "उच्च", "te": "అధికం", "fr": "Élevée"},
+            "severity": {"en": "High", "hi": "उच्च", "te": "అధికం"},
             "symptoms": {
                 "en": "Pale green to dark brown water-soaked blotches on leaf tips and margins, rapid collapse in wet conditions.",
                 "hi": "पत्तियों के किनारों पर हल्के हरे से गहरे भूरे धब्बे और नमी में तेजी से सड़न।",
                 "te": "ఆకుల అంచులపై లేత ఆకుపచ్చ నుండి ముదురు గోధుమ రంగు మచ్చలు మరియు తడి వాతావరణంలో వేగంగా కుళ్ళిపోవడం.",
-                "fr": "Taches vert pâle à brun foncé sur les bords des feuilles, flétrissement rapide par temps humide.",
             },
             "action": {
                 "en": "Destroy infected foliage promptly, avoid working in wet fields, and follow local blight advisories.",
                 "hi": "संक्रमित पत्तियों को तुरंत नष्ट करें, गीले खेत में काम करने से बचें और स्थानीय सलाह का पालन करें।",
                 "te": "తెగులు సోకిన ఆకులను వెంటనే నాశనం చేయండి మరియు తడి పొలంలో పనిచేయడం మానుకోండి.",
-                "fr": "Détruisez rapidement le feuillage infecté et évitez d'intervenir dans les parcelles humides.",
             },
         },
         {
@@ -284,20 +235,17 @@ DISEASE_GUIDES = {
                 "en": "Healthy Leaf",
                 "hi": "स्वस्थ पत्ती (Healthy Leaf)",
                 "te": "ఆరోగ్యకరమైన ఆకు (Healthy Leaf)",
-                "fr": "Feuille saine",
             },
-            "severity": {"en": "None", "hi": "कोई नहीं", "te": "లేదు", "fr": "Aucune"},
+            "severity": {"en": "None", "hi": "कोई नहीं", "te": "లేదు"},
             "symptoms": {
                 "en": "Uniform green foliage without lesions, curling, or discoloration.",
                 "hi": "बिना किसी धब्बे, मुड़ाव या पीलेपन के एकसमान हरी पत्तियां।",
                 "te": "మచ్చలు, ముడతలు లేదా రంగు మార్పు లేకుండా సమానమైన ఆకుపచ్చ ఆకులు.",
-                "fr": "Feuillage vert uniforme sans lésions, enroulement ni décoloration.",
             },
             "action": {
                 "en": "Continue regular monitoring, drip/base irrigation, and field scouting.",
                 "hi": "नियमित निगरानी, जड़ों के पास सिंचाई और खेत का निरीक्षण जारी रखें।",
                 "te": "క్రమం తప్పకుండా పర్యవేక్షణ మరియు మొక్కల మొదళ్ల వద్ద నీటిపారుదల కొనసాగించండి.",
-                "fr": "Poursuivez la surveillance régulière et l'irrigation au pied des plants.",
             },
         },
     ],
@@ -371,9 +319,8 @@ def run_diagnosis(image: Image.Image, crop_key: str, lang_code: str) -> tuple[st
     return entry["name"][lang_code], confidence, details
 
 
-# Sidebar with Language Switcher first
 with st.sidebar:
-    selected_lang_label = st.selectbox("🌐 Language / भाषा / భాష / Langue", list(LANGUAGES.keys()))
+    selected_lang_label = st.selectbox("🌐 Language / भाषा / భాష", list(LANGUAGES.keys()))
     lang = LANGUAGES[selected_lang_label]
     t = UI_TEXT[lang]
 
@@ -389,7 +336,6 @@ with st.sidebar:
 st.title("🌿 AgriShield")
 st.caption(t["subtitle"])
 
-# Live Weather Section
 st.subheader(t["weather_header"])
 weather = fetch_weather(location_input.strip(), lang) if location_input.strip() else None
 
@@ -408,7 +354,6 @@ else:
 
 st.divider()
 
-# Image Upload & Diagnosis Section
 col_upload, col_result = st.columns([1, 1.2], gap="large")
 
 with col_upload:
